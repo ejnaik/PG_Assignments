@@ -1,0 +1,29 @@
+set ZONE:= Zone1 Zone2 Zone3 Zone4 Zone5 Zone6 Zone7 Zone8 Zone9 Zone10;
+set RD:= RDC1	RDC2	RDC3	RDC4;
+
+
+param K:=
+	RDC1 4
+	RDC2 5
+	RDC3 4
+	RDC4 5;
+
+param c:=
+	RDC1 1500
+	RDC2 4500
+	RDC3 2000
+	RDC4 3000;
+
+
+param pair :					
+	RDC1	RDC2	RDC3	RDC4:=
+Zone1	1	1	0	0	
+Zone2	0	0	1	1	
+Zone3	0	1	1	0	
+Zone4	1	1	0	1	
+Zone5	0	1	1	0	
+Zone6	1	1	0	0	
+Zone7	0	0	1	1	
+Zone8	1	1	0	1	
+Zone9	1	1	1	1	
+Zone10	0	1	0	1;
