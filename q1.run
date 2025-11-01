@@ -1,0 +1,7 @@
+reset;
+
+model q1.mod;
+option solver cplex;
+
+solve;
+display x1, x2,x3;
